@@ -12,9 +12,12 @@ h2 {
 h3 {
     color: red;
 }
+ul {
+    list-style-type: none;
+}
 li:hover { background-color: violet; }
 @media screen and (max-width: 360px){
-#grid-flex { width: 97%; }
+#grid-flex { width: 100%; }
 img { width: 50%; }
 .grid-item { 
     width: 40%;
@@ -22,6 +25,7 @@ img { width: 50%; }
     float: left;
     padding: 10px;
     color: lime;
+    margin: 10px;
       }
 li:first-child {
     width: 100%;
@@ -37,7 +41,8 @@ img { width: 50%; }
     height: 350px; 
     float: left; 
     padding: 7px; 
-    color: green; 
+    color: green;
+    margin: 10px;
 }
 li:nth-child(-n+2) {
     width: 48%;
@@ -54,7 +59,8 @@ img { width: 50%;}
     height: 400px; 
     float: left; 
     padding: 5px; 
-    color: blue; 
+    color: blue;
+    margin: 10px;
 }
 li:first-child {
     width: 50%;
